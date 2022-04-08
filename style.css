@@ -2,8 +2,8 @@
     margin: 0;
 }
 
+
 .body {
-    background: lightpink;
     display: flex;
     justify-content: center;
 }
@@ -17,9 +17,6 @@
     z-index: -2;
 }
 
-.first-block {
-    
-}
 
 .lines-wrapper {
     width: 100%;
@@ -63,7 +60,7 @@
 
 .menu {
     margin-top: 39px;
-    margin-right: 18px;
+    margin-right: 21px;
 }
 
 .menu1 {
@@ -77,6 +74,99 @@
     background: white;
     height: 2px;
     width: 18px;
+}
+
+.logo-name {
+    display: none;
+}
+
+.header-center {
+    display: none;
+}
+
+.button-registration {
+    display: none;
+}
+
+.login {
+    display: none;
+}
+
+@media screen and (min-width: 377px) {
+
+    .header {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo{
+        margin: 0;
+    }
+
+    .logo-name {
+        display: flex;
+        margin-left: 10px;
+        font-family: "Inter";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #FFFFFF;
+    }    
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        margin-top: 29px;
+    }
+
+    .header-center {
+        display: flex;
+        align-items: center;
+        margin-top: 21px;
+        font-family: "Effra";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+
+    .header-center div {
+        margin-right: 40px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-right {
+        display: flex;
+        align-items: center;
+        margin-top: 28px;
+    }
+
+    .login {
+        display: flex;
+        font-family: "Effra";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color:#FFFFFF;
+    }
+
+    .button-registration {
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        width: 129px;
+        height: 42px;
+        border-radius: 40px;
+        background-color: #FFFFFF;
+        font-family: "Effra";
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #000000;
+        border: 0;
 }
 
 .first-block {
@@ -122,4 +212,27 @@
     font-size: 14px;
     line-height: 20px;
     border: 0;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #A8FF35;
+}
+
+.second-block-title {
+    margin-top: 80px;
+    font-family: "Effra";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.second-block-tab {
+    margin-top: 32px;
+}
+
+.tab-signature-1 {
+
 }
