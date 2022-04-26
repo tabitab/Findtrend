@@ -549,16 +549,19 @@
 
 .second-block-tab {
     display: flex;
-    flex-direction: column;
     margin-top: 32px;
 }
 
 .tab-signature-1 {
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    z-index: 3;
     margin-bottom: -20px;
     margin-left: 238px;
+}
+
+.arrow1 {
+    z-index: 3;
 }
 
 .tab-signature-info-1 {
@@ -574,8 +577,6 @@
 }
 
 .second-block-tabitab {
-    height: 118px;
-    width: 339px;
     display: flex;
     justify-content: center;
     background-color: #F5F5F5;
@@ -583,16 +584,32 @@
 }
 
 .findtrend-tab {
-    height: 70px;
-    width: 291px;
     display: flex;
     align-items: center;
-    margin-top: 24px;
+    margin: 24px;
     background-color: #030303;
 }
 
-.ft-img {
-    margin-left: 34px;
+.ft-name-link {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 14px;
+    background: linear-gradient(90deg, #FFFFFF 50%, rgba(255, 255, 255, 0) 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+.ft-cross {
+    z-index: 2;
+}
+
+.ft-tab-info {
+    display: flex;
+    align-items: center;
+    margin: 22px 34px;
 }
 
 .tab-signature-2 {
@@ -600,7 +617,6 @@
     flex-direction: column;
     z-index: 2;
     margin-top: -19px;
-    width: 93px;
 }
 
 .arrow2 {
@@ -630,7 +646,13 @@
     margin-bottom: 80px;
 }
 
+.arrow3 {
+    display: none;
+}
 
+.second-block-info-comp {
+    display: none;
+}
 
 @media screen and (min-width: 376px) {
 
@@ -642,4 +664,525 @@
         margin-top: 140px;
         font-size: 72px;
         line-height: 85px;
+    }
+
+    .second-block-tab {
+        margin-top: 60px;
+    }
+
+    .arrow1 {
+        display: none;
+    }
+
+    .arrow3 {
+        display: block;
+        height: 28px;
+        width: 34px;
+    }
+
+    .findtrend-tab {
+        margin: 60px 80px;
+    }
+
+    .ft-tab-info {
+        margin: 25px 40px;
+    }
+
+    .ft-name-link {
+        font-size: 24px;
+        line-height: 28px;
+        margin-left: 16px;
+    }
+
+    .tab-signature-1 {
+        margin-top: 120px;
+        margin-left: 24px;
+        
+    }
+
+    .tab-signature-info-1 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .tab-with-capt {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .tab-signature-2 {
+        justify-content: flex-end;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        margin-right: 25px;
+    }
+
+    .tab-signature-info-2 {
+        margin-top: 2px;
+        transform: rotate(6deg);
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .second-block-info {
+        display: none;
+    }
+
+    .second-block-info-comp {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: "Effra";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        margin-bottom: 140px;
+    }
+
+}
+
+.startup-grow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.startup-grow-main-title {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: "Effra";
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+}
+
+.text-light {
+    color: #ADADAD;
+}
+
+.startups {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.startups-main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Effra";
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+}
+
+.startups-tablets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.mic-all {
+    display: flex;
+}
+
+.microsoft {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-microsoft {
+    margin: 25px 23px;
+}
+
+.allianz {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-allianz {
+    margin: 25px 33px;
+}
+
+.up-vo {
+    display: flex;
+    margin-top: 14px;
+}
+
+.upwork {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-upwork {
+    margin: 24px 37px;
+}
+
+.volvo {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-volvo {
+    margin: 30px 28px;
+}
+
+.gra-ver {
+    margin-top: 14px;
+    display: flex;
+}
+
+.grab {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-grab {
+    margin: 24px 47px;
+}
+
+.verizon {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-verizon {
+    margin: 26px 32px;
+}
+
+.co-ex {
+    display: flex;
+    margin-top: 14px;
+}
+
+.coinbase {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-coinbase {
+    margin: 26px 37px;
+}
+
+.expedia {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-expedia {
+    margin: 24px 34px;
+}
+
+.ai-ma {
+    display: flex;
+    margin-top: 14px;
+}
+
+.airtable {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-airtable {
+    margin: 25px 26px;
+}
+
+.magento {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-magento {
+    margin: 22px 31px;
+}
+
+.ca-bo {
+    display: flex;
+    margin-top: 14px;
+}
+
+.carrera {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-carrera {
+    margin: 24px 28px;
+}
+
+.bonanza {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-bonanza {
+    margin: 28px 32px;
+}
+
+.we-su {
+    display: flex;
+    margin-top: 14px;
+}
+
+.wetransfer {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-wetransfer {
+    margin: 25px 28px;
+}
+
+.suzuki {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-suzuki {
+    margin: 27px;
+}
+
+.al-he {
+    display: flex;
+    margin-top: 14px;
+}
+
+.algolia {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.img-algolia {
+    margin: 25px 32px;
+}
+
+.heineken {
+    background-color: #F5F5F5;
+    border-radius: 8px;
+}
+
+.img-heineken {
+    margin: 27px 23px;
+}
+
+.startups-title-media {
+    display: none;
+}
+
+.startups-main-title-media {
+    display: none;
+}
+
+@media screen and (min-width: 376px) {
+
+    .startup-grow-main-title {
+        display: none;
+    }
+
+    .startups-title-media {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: "Effra";
+        margin-top: 140px;
+        font-size: 64px;
+        line-height: 76px;
+        font-weight: 700;
+    }
+
+    .startups {
+        margin-top: 280px;
+        margin-bottom: 140px;
+    }
+
+    .startups-main-title {
+        display: none;
+    }
+
+    .startups-main-title-media {
+        display: flex;
+        align-items: center;
+        font-family: "Effra";
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 76px;
+    }
+
+    .startups-tablets {
+        margin-top: 80px;
+    }
+
+    .tab-line-1 {
+        display: flex;
+    }
+
+    .microsoft {
+        margin-right: 32px;
+    }
+
+    .img-microsoft {
+        margin: 40px 38px;
+    }
+
+    .allianz {
+        margin-right: 32px;
+    }
+
+    .img-allianz {
+        margin: 40px 55px;
+    }
+
+    .up-vo {
+        margin: 0;
+    }
+
+    .upwork {
+        margin-right: 32px;
+    }
+
+    .img-upwork {
+        margin: 38px 60px;
+    }
+
+    .img-volvo {
+        margin: 48px 46px;
+    }
+
+    .tab-line-2 {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    .gra-ver {
+        margin: 0;
+    }
+
+    .grab {
+        margin-right: 32px;
+    }
+
+    .img-grab {
+        margin: 38px 65px;
+    }
+
+    .verizon {
+        margin-right: 32px;
+    }
+
+    .img-verizon {
+        margin: 42px 52px;
+    }
+
+    .co-ex {
+        margin: 0;
+    }
+
+    .coinbase {
+        margin-right: 32px;
+    }
+
+    .img-coinbase {
+        margin: 44px 59px;
+    }
+
+    .img-expedia {
+        margin: 38px 57px;
+    }
+
+    .tab-line-3 {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    .ai-ma {
+        margin: 0;
+    }
+
+    .airtable {
+        margin-right: 32px;
+    }
+
+    .img-airtable {
+        margin: 40px 47px;
+    }
+
+    .magento {
+        margin-right: 32px;
+    }
+
+    .img-magento {
+        margin: 36px 51px;
+    }
+
+    .ca-bo {
+        margin: 0;
+    }
+
+    .carrera {
+        margin-right: 32px;
+    }
+
+    .img-carrera {
+        margin: 39px 46px;
+    }
+
+    .img-bonanza {
+        margin: 46px 53px;
+    }
+
+    .tab-line-4 {
+        display: flex;
+        margin-top: 32px;
+    }
+
+    .we-su {
+        margin: 0;
+    }
+
+    .wetransfer {
+        margin-right: 32px;
+    }
+
+    .img-wetransfer {
+        margin: 41px 50px;
+    }
+
+    .suzuki {
+        margin-right: 32px;
+    }
+
+    .img-suzuki {
+        margin: 43px 44px;
+    }
+
+    .al-he {
+        margin: 0;
+    }
+
+    .algolia {
+        margin-right: 32px;
+    }
+
+    .img-algolia {
+        margin: 40px 52px;
+    }
+
+    .img-heineken {
+        margin: 43px 45px;
+    }
 }
