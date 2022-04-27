@@ -1197,13 +1197,11 @@
 }
 
 .platform-connect-title {
-    margin: auto;
+    margin: 0px 25px;
     padding-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     font-family: "Effra";
     font-size: 36px;
+    text-align: center;
     font-weight: 900;
     line-height: 43px;
 }
@@ -1276,7 +1274,6 @@
 .button-view-more-trend {
     display: flex;
     justify-content: center;
-    margin: 12px 24px;
     border-radius: 40px;
     background-color: #000000;
     font-family: 'Effra';
@@ -1289,7 +1286,124 @@
     height: 44px;
 }
 
-.button-view-more {
-    margin: auto;
-    padding-bottom: 80px;
+.white-block {
+    height: 76px;
+    color: #FFFFFF;
+}
+
+.pl-Mfull {
+    display: none;
+}
+
+.pl-reddit {
+    display: none;
+}
+
+.pl-vk {
+    display: none;
+}
+
+.pl-in {
+    display: none;
+}
+
+@media screen and (min-width: 391px) {
+
+    .platform-connect {
+        align-items: center;
+    }
+
+    .platform-connect-title {
+        padding-top: 140px;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 76px;
+    }
+
+    .platform {
+        margin-top: 80px;
+    }
+
+    .pl-M {
+        display: none;
+    }
+
+    .pl-facebook {
+        margin-right: 24px;
+    }
+
+    .pl-img {
+        height: 60px;
+        margin: 32px;
+    }
+
+    .pl-twitter {
+        margin-right: 24px;
+    }
+
+    .pl-ball {
+        margin-right: 24px;
+    }
+
+    .pl-pinterest {
+        margin-right: 24px;
+    }
+
+    .pl-Mfull {
+        display: block;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        margin-right: 24px;
+    }
+
+    .pl-reddit {
+        display: block;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        margin-right: 24px; 
+    }
+
+    .pl-vk {
+        display: block;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        margin-right: 24px;
+    }
+
+    .pl-in {
+        display: block;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+    }
+
+    .tweets {
+        padding-top: 77px;
+    }
+
+    .img-tweet {
+        width: 800px;
+    }
+
+    .tweet1 {
+        margin-bottom: 43px;
+    }
+
+    .tweet2 {
+        margin-bottom: 43px;
+    }
+
+    .tweet3 {
+        margin-bottom: 80px;
+    }
+
+    .button-view-more-trend {
+        font-size: 18px;
+        line-height: 25px;
+        width: 198px;
+        height: 57px;
+    }
+
+    .button-view-more {
+        margin-bottom: 140px;
+    }
 }
