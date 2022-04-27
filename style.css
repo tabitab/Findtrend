@@ -44,7 +44,7 @@
     margin-right: 0;
 }
 
-@media screen and (min-width: 377px) {
+@media screen and (min-width: 391px) {
 
     .lines-wrapper {
         display: none;
@@ -106,7 +106,7 @@
     display: none;
 }
 
-@media screen and (min-width: 377px) {
+@media screen and (min-width: 391px) {
 
     .header {
         display: flex;
@@ -371,16 +371,16 @@
     margin-top: -6px;
 }
 
-@media screen and (min-width: 377px) {
+@media screen and (min-width: 391px) {
 
     .first-block {
         margin-top: 128px;
     }
 
     .main-title {
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 80px;   
+        font-size: 72px;
+        font-weight: 900;
+        line-height: 80px;   
     }
 
     .main-info{
@@ -556,7 +556,8 @@
     display: flex;
     flex-direction: column;
     z-index: 3;
-    margin-bottom: -20px;
+    margin-bottom: -45px;
+    margin-top: 32px;
     margin-left: 238px;
 }
 
@@ -615,7 +616,8 @@
 .tab-signature-2 {
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    align-items: flex-start;
+    z-index: 3;
     margin-top: -19px;
 }
 
@@ -654,7 +656,7 @@
     display: none;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 391px) {
 
     .second-block {
         margin-top: 99px;
@@ -988,7 +990,7 @@
     display: none;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 391px) {
 
     .startup-grow-main-title {
         display: none;
@@ -1185,4 +1187,67 @@
     .img-heineken {
         margin: 43px 45px;
     }
+}
+
+.platform-connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.platform-connect-title {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Effra";
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 43px;
+}
+
+.platform {
+    margin-top: 32px;
+    margin-left: 18px;
+    display: flex;
+}
+
+.pl-facebook {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.pl-img{
+    margin: 16px;
+}
+
+.pl-twitter {
+    background-color: #A8FF35;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.pl-ball {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.pl-pinterest {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.tweets {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tweet1 {
+    margin: 0px 18px;
 }
