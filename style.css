@@ -119,7 +119,7 @@
         align-items: center;
     }
 
-    .logo{
+    .logo {
         margin: 0;
     }
 
@@ -131,7 +131,7 @@
         font-weight: 700;
         line-height: 24px;
         color: #FFFFFF;
-    }    
+    }
 
     .header-left {
         display: flex;
@@ -170,7 +170,7 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 18px;
-        color:#FFFFFF;
+        color: #FFFFFF;
     }
 
     .button-registration {
@@ -264,17 +264,17 @@
     transform: rotate(4deg);
 }
 
-.socnet:nth-child(1){
+.socnet:nth-child(1) {
     position: relative;
     z-index: 4;
 }
 
-.socnet:nth-child(2){
+.socnet:nth-child(2) {
     position: relative;
     z-index: 3;
 }
 
-.socnet:nth-child(3){
+.socnet:nth-child(3) {
     position: relative;
     z-index: 2;
 }
@@ -310,7 +310,7 @@
         margin: 0px 317px;
         font-size: 72px;
         font-weight: 900;
-        line-height: 80px;   
+        line-height: 80px;
     }
 
     .main-info {
@@ -538,7 +538,7 @@
     .tab-signature-1 {
         margin-top: 120px;
         margin-left: 24px;
-        
+
     }
 
     .tab-signature-info-1 {
@@ -632,11 +632,11 @@
     margin-right: 0;
 }
 
-.startup:nth-last-child(1){
+.startup:nth-last-child(1) {
     margin-bottom: 0;
 }
 
-.startup:nth-last-child(2){
+.startup:nth-last-child(2) {
     margin-bottom: 0;
 }
 
@@ -871,7 +871,7 @@
     margin-right: 16px;
 }
 
-.pl-img{
+.pl-img {
     margin: 17px;
 }
 
@@ -884,7 +884,7 @@
 }
 
 .platform:nth-child(5) {
-    margin: 0;    
+    margin: 0;
 }
 
 .pl-M {
@@ -902,7 +902,7 @@
 
 .tweet:nth-last-child(4) {
     padding-top: 32px;
-} 
+}
 
 .tweet:nth-last-child(2) {
     padding-bottom: 32px;
@@ -943,7 +943,7 @@
     .platforms {
         margin-top: 80px;
     }
-    
+
     .platform {
         margin-right: 24px;
     }
